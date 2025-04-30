@@ -19,7 +19,7 @@ export default function Home() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer YOUR_API_KEY_HERE" // Replace this
+        Authorization: "Bearer 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" // Replace this
       },
       body: JSON.stringify({
         model: "gpt-4",
