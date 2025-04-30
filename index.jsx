@@ -22,7 +22,7 @@ export default function CoachAIChat() {
         Authorization: "Bearer sk-proj-VAxgMfL_jeDySGbAZgt9WZF-sxwaRlKEo0JNNdbAs8dI-ISKOQlsrMHDmX5B8TKZ_VKIUBVhJET3BlbkFJsrjKzuKvh7JKSb2lhXOEv81CFNgVRrmkXuyAUYBKgu0Xm996PTqNdYZKNrUA0CbiHFH9_VDB0AY"
       },
       body: JSON.stringify({
-        model: "gpt-4",
+        model: "gpt-4-turbo",
         messages: newMessages,
         temperature: 0.7,
         max_tokens: 1000,
